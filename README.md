@@ -1,10 +1,19 @@
 # 🏎️ KAGE DRIFT // 影ドリフト
 
+[![Deploy to GitHub Pages](https://github.com/ISBANDURAHUMAN-R/KAGE_-DRIFT/actions/workflows/deploy.yml/badge.svg)](https://github.com/ISBANDURAHUMAN-R/KAGE_-DRIFT/actions/workflows/deploy.yml)
+[![Live Demo](https://img.shields.io/badge/Play_Live-GitHub_Pages-00f0ff?style=for-the-badge&logo=google-chrome&logoColor=white)](https://isbandurahuman-r.github.io/KAGE_-DRIFT/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat)](./LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.4-blue?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Three.js](https://img.shields.io/badge/Three.js-r165-black?logo=three.js&logoColor=white)](https://threejs.org/)
+[![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+
 ### MASTER THE CORNER. OWN THE NIGHT.
 
 **ENTER THE STREETS. FEEL THE SPEED. BECOME THE SHADOW.**
 
-Welcome to **KAGE DRIFT**, a high-octane 3D anime-inspired cyberpunk drifting experience. Immerse yourself in the underground JDM racing scene, master challenging corners, unleash your nitro, and create your own legend on the streets.
+Welcome to **KAGE DRIFT**, a high-octane 3D anime-inspired cyberpunk drifting experience built with **Three.js**, **React 18**, **Tailwind CSS**, and **Vite**. Immerse yourself in the underground JDM racing scene, master challenging corners, unleash your nitro, and create your own legend on the streets.
+
+🏎️ **Play Instantly in Browser**: [https://isbandurahuman-r.github.io/KAGE_-DRIFT/](https://isbandurahuman-r.github.io/KAGE_-DRIFT/)
 
 <pre>
     ██╗  ██╗ █████╗  ██████╗ ███████╗
@@ -25,143 +34,47 @@ KAGE DRIFT brings together Japanese street racing culture, futuristic cyberpunk 
 
 Whether you're chasing the perfect drift, pushing your car to its limits, or exploring the world of underground racing, every moment is about speed, precision, and style.
 
-## 🔥 GAME FEATURES
+---
 
-- 🏎️ **3D Racing:** Experience real-time 3D driving with immersive environments.
-- 💨 **Drift Mechanics:** Slide through corners using handbrake-assisted drifting.
-- ⚡ **N₂O Hyper Boost:** Activate nitrous and unleash extreme acceleration.
-- 🚗 **JDM Customization:** Build your dream ride with widebody-inspired tuning.
-- 🎵 **Eurobeat & Synthwave:** Race with a soundtrack inspired by Japanese street racing culture.
-- 🌌 **Cyberpunk Atmosphere:** Experience a futuristic anime-inspired visual style.
-- 🎥 **Dynamic Cameras:** Switch between multiple racing perspectives.
-- 📱 **Mobile Gameplay:** Play using responsive touchscreen controls.
-- 🏆 **Progression System:** Experience a Free-to-Play progression journey.
+## 🎮 CONTROLS
 
-## 🎮 HOW TO PLAY
+### Desktop Keyboard
+| Key | Function |
+| :--- | :--- |
+| **`W` / `↑`** | Accelerate Straight Forward |
+| **`S` / `↓`** | Carbon Brakes / Reverse Straight Backward |
+| **`A` / `←`** | Steer Left (Speed-responsive dynamic heading) |
+| **`D` / `→`** | Steer Right (Speed-responsive dynamic heading) |
+| **`SPACE`** | Handbrake (Hold while steering at speed to initiate drift) |
+| **`SHIFT`** | Ignite N₂O Hyper Boost |
+| **`C`** | Cycle Camera (Dynamic Chase ➔ Far ➔ Hood View) |
+| **`R`** | Quick Track Centerline Reset |
 
-Your objective is simple:
+### Mobile & Touch Gamepad
+- **Left Thumb**: Responsive `◀` / `▶` steering buttons.
+- **Right Thumb**: Ergonomic `▲ GAS`, `▼ BRK`, `DRIFT`, and `N2O` action pedals.
+- **HUD Controls**: Centered tachometer, top-right interactive minimap, audio mute toggle, and music track selector.
 
-**DRIVE. DRIFT. BOOST. DOMINATE.**
+---
 
-1. Accelerate and build up speed.
-2. Approach corners and steer in your desired direction.
-3. Use the handbrake to initiate drifts.
-4. Control your vehicle through the corner.
-5. Activate N₂O for an extra burst of speed.
-6. Master your driving and own the streets.
+## ⚡ LOCAL DEVELOPMENT
 
-## 🕹️ CONTROLS
+```bash
+# 1. Install dependencies
+npm install
 
-### 💻 Desktop Controls
+# 2. Start local development server
+npm run dev
 
-| Key | Action |
-|---|---|
-| `W` / `↑` | Accelerate |
-| `S` / `↓` | Brake / Reverse |
-| `A` / `←` | Steer Left |
-| `D` / `→` | Steer Right |
-| `SPACE` | Handbrake / Drift |
-| `SHIFT` | N₂O Hyper Boost |
-| `C` | Switch Camera |
-| `R` | Reset Vehicle |
+# 3. Compile optimized production build
+npm run build
 
-### 📱 Mobile Controls
+# 4. Preview local production build
+npm run preview
+```
 
-| Button | Action |
-|---|---|
-| ◀ | Steer Left |
-| ▶ | Steer Right |
-| ▲ GAS | Accelerate |
-| ▼ BRK | Brake / Reverse |
-| DRIFT | Handbrake |
-| N₂O | Hyper Boost |
+---
 
-**Pro Tip:** Combine steering with the handbrake at speed to initiate a drift. Smooth steering helps you maintain control.
+## 📄 LICENSE
 
-## 🎥 CAMERA MODES
-
-Choose your preferred racing perspective.
-
-- **CHASE CAM:** Dynamic third-person racing view.
-- **FAR CAM:** Wider view of the track and surroundings.
-- **HOOD CAM:** Closer, immersive driving perspective.
-
-Press `C` to cycle through the available cameras.
-
-## 🏁 YOUR RIDE. YOUR STYLE.
-
-Experience the JDM-inspired tuning atmosphere.
-
-- Widebody-inspired vehicle styling.
-- Personalized racing builds.
-- Performance-focused driving.
-- A futuristic underground racing aesthetic.
-
-## 🎧 SOUND & ATMOSPHERE
-
-Turn up the volume and enter the world of KAGE DRIFT.
-
-Experience a procedural audio soundtrack inspired by:
-
-- Japanese Eurobeat.
-- Synthwave.
-- Retro electronic racing music.
-- High-energy cyberpunk soundscapes.
-
-
-
-## 📱 BUILT FOR EVERY RACER
-
-| Platform | Experience |
-|---|---|
-| 🖥️ PC | Keyboard controls |
-| 💻 Laptop | Keyboard controls |
-| 📱 Mobile | Touchscreen controls |
-| 📲 Tablet | Touchscreen controls |
-
-*Play through a supported modern web browser.*
-
-## 🖤 JOIN THE KAGE COMMUNITY
-
-Become part of the underground racing community.
-
-Share your experience, show off your builds, exchange feedback, and be part of the KAGE DRIFT journey.
-
-**Every racer has a story. What's yours?**
-
-## ⚡ GAME INFORMATION
-
-| Category | Details |
-|---|---|
-| Game Name | KAGE DRIFT |
-| Japanese Title | 影ドリフト |
-| Genre | 3D Drift Racing |
-| Visual Style | Anime / Cyberpunk |
-| Racing Culture | Japanese JDM |
-| Platform | Web Browser |
-| Game Type | Free-to-Play |
-| Controls | Keyboard / Touch |
-| Graphics Engine | Three.js |
-
-## 🏆 THE KAGE DRIFT PHILOSOPHY
-
-Speed is nothing without control.
-
-Drifting is nothing without precision.
-
-And the streets remember those who master both.
-
-<p align="center">
-
-### 影ドリフト
-
-# MASTER THE CORNER.
-# OWN THE NIGHT.
-
-**KAGE DRIFT © 2026**
-
-*BUILT FOR SPEED. BORN IN THE SHADOWS.*
-
-🖤
-
-</p>
+This project is open-source and licensed under the [MIT License](./LICENSE) © 2026 ISBANDU RAHUMAN R.
