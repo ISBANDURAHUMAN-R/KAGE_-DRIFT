@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.png" alt="KAGE_-DRIFT Banner" width="100%">
+</p>
+
 # 🏎️ KAGE DRIFT // 影ドリフト
 
 [![Deploy to GitHub Pages](https://github.com/ISBANDURAHUMAN-R/KAGE_-DRIFT/actions/workflows/deploy.yml/badge.svg)](https://github.com/ISBANDURAHUMAN-R/KAGE_-DRIFT/actions/workflows/deploy.yml)
