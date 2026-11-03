@@ -1,0 +1,18 @@
+{
+  "name": "KAGE DRIFT: NEON TOKYO // 影ドリフト",
+  "short_name": "KageDrift",
+  "description": "Next-Gen 3D Anime Cyberpunk Drift Racing Game. Complete F2P Career, JDM Widebody Customization & Synthwave OST.",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#050611",
+  "theme_color": "#00f0ff",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
